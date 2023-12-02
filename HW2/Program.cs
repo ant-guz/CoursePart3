@@ -12,7 +12,8 @@ namespace HW2
         static void Main(string[] args)
         {
             Console.WriteLine("START!!!!");
-            int[] resultArray = GenerateRandomIntArray(100000);
+            //5000, 25000, 50000
+            int[] resultArray = GenerateRandomIntArray(10000);
             var testArray1 = resultArray;
             var testArray2 = resultArray;
             var testArray3 = resultArray;
